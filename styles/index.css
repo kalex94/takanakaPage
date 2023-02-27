@@ -1,0 +1,104 @@
+* {background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+}
+* { color: gainsboro;}
+.centrar {
+    width: 1200px;
+    margin:auto;
+    
+    
+}
+  
+.centrarTitulo0 { 
+    width: 1200px;
+    margin: auto;
+    font-size:25px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    ;
+  
+    
+    
+}
+.centrarTitulo1 { 
+    width: 1200px;
+    margin: auto;
+    font-size:40px;
+    text-align: center;
+   
+    
+    
+    
+    
+}
+
+.centrarTexto {
+    background-color: transparent;
+    text-align: center;
+    margin:10%auto; 
+    font-size:25px;
+}
+
+.textos{
+    display: none;
+    padding: 0 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.centrarImagen { 
+    width: 600px;
+    margin: 10%auto;
+    text-align: center;
+    
+}
+.imagenRedonda {
+    border-radius: 40%;
+    box-shadow: 0 0 10px 5px #fafafa;
+}
+
+.titulos { 
+    border-top: 0;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 25px;
+    color: white;
+    border:none;
+    border-radius: 100px;
+    padding: 20px ;
+    cursor: pointer;
+    background-color: transparent;
+    transform: translateX(0px);
+    transition: all 1s;
+}
+
+.boton-abierto {
+    color: #33ff76;
+    
+    transform: translateX(-200px);
+ 
+}
+
+.boton {
+    width: 1200px;
+    text-align: center;
+    box-shadow: 0 0 8px #5e5e5e;
+    border: 1px solid #787878;
+}
+
+.contact-info {
+    font-size: 1.2em; 
+  }
+
+  .fechas {
+    font-size: 10px;
+  }
